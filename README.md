@@ -11,13 +11,19 @@ If you are in hurry for practicing devop's, it will save your time(for amateurs)
 
 This is made to save time w.r.t diff dependencies of software w.r.t each other, and hope it's helpful.
 
-You can run this script in any VM running Ubuntu20, Amazon ubuntu 20 AMI image instance  (if you overboard , you can be charged in AWS as this download packages from Internet), you can run this on Ubuntu 20 container image, setup vagrant box ubuntu 20 etc and run on these instances.
+You can run this script in any UBUNTU 20.04..xx instance , for example :  VM running Ubuntu20, Amazon ubuntu 20 AMI image instance  (if you overboard , you can be charged in AWS as this download packages from Internet), you can run this on Ubuntu 20 container image, setup vagrant box ubuntu 20 etc and run on these instances.
 
 
 This is idempotent i.e you can run many times and it will still work, just will take some bandwidth.
 
 
 All you need to do is just run following command once you download this file 
+
+On you laptop which has git (lol), do
+
+git clone git@github.com:knowledgeira/mj_devops.git
+cd mj_devops and run following command.
+
 
 chmod +x mj_Autoinstall.sh                      >>>>>>>>>>>>.This sets the execute bit for all users or you can chmod 700,chmod 777 and run script , please avoid using sudo while running scirpt.
 
