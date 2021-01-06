@@ -1,7 +1,7 @@
-# mj_devops
+# mj_devopsr
 ​
 
-I have created a simple shady script (no checks,simple bash commands meant for novice user) which installs 8 packages on UBUNTU 20 instance. Ansible MAVEN,TOMCAT,JENKIN"S,DOcker as of Jan2021. This also make's sure/installs git,JDK 11,dockercompose . THE $PATH is set and everything is cross-compatible and finally  up and running.
+I have created a simple shady script (simple bash commands meant for novice user) which installs 8 packages on UBUNTU 20 instance. Ansible MAVEN,TOMCAT,JENKIN"S,DOcker as of Jan2021. This also make's sure/installs git,JDK 11,dockercompose . THE $PATH is set and everything is cross-compatible(like maven with jenkins w.r.t java etc) and would be finally  up and running after you run it.
 
 This is usually helpfull for people who are very new to linux world. You can freely read the script and check what it does to understand better what happening under the hood.
 
@@ -26,7 +26,7 @@ cd mj_devops and run following command.
 
 chmod +x mj_Autoinstall.sh     
 
->>>>>>>>>>>>.This sets the execute bit for all users or you can chmod 700,chmod 777 and run script , please avoid using sudo while running scirpt.
+>>>>>>>>>>>>.This sets the execute bit for all users or you can chmod 700,chmod 777 and run script , please avoid using sudo(you can if u want to) while running scirpt.
 
 source mj_Autoinstall.sh
 
