@@ -239,3 +239,6 @@ echo -e " Package 7:Ansible  status \n"
 
 ansible --version | head -n 1
 
+
+echo "Remember perfection is just an illusion"
+
