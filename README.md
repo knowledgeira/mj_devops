@@ -24,23 +24,31 @@ git clone git@github.com:knowledgeira/mj_devops.git
 cd mj_devops and run following command.
 
 
-chmod +x mj_Autoinstall.sh     
-
->>>>>>>>>>>>.This sets the execute bit for all users or you can chmod 700,chmod 777 and run script , please avoid using sudo(you can if u want to) while running scirpt.
+chmod +x mj_Autoinstall.sh  ------------>.This sets the execute bit for all users or you can chmod 700,chmod 777 and run script , please avoid using sudo(you can if u want to) while running scirpt.
 
 source mj_Autoinstall.sh
 
-
+After running Script: 
 
 In the end you can skip or try : mvn --version , and run following if you dont get op .
 
 source /etc/profile.d/mjenv.sh
 
 
-
 TOMCAT and MAVEN will be installed in /opt/respective-dir
 
-JAVA,MAVEN env variables are set but later if you need you can run following command for it.
+JAVA,MAVEN env variables are set but later for anyother user if you need, you can run following command for it.
 
 source /etc/profile.d/mjenv.sh
+
+Dont worry about systemctl status of jenkins.You can access Jenkins via curl localhost:8080 or just in browser type 127.x.x.x :8080 where x is anything between (0-254)/localhost.
+
+Tomcat is used if you are using JSP/java container for running java apps. It can be accessed via curl or browser localhost:8081.
+
+
+
+
+
+
+
 
