@@ -128,6 +128,6 @@ ansible 2.9.6
 Remember perfection is just an illusion
 
 
-
+-------------------------You may need to set the specific versions of maven,git etc in manage Jenkins-->Global tool configuration in Jenkins------
 
 
