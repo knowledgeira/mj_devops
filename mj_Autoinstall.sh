@@ -169,7 +169,7 @@ sudo systemctl start jenkins
 #sudo systemctl status jenkins
 
 
-apt install ansible
+sudo apt install ansible -y
 
 tput reset
 
@@ -236,7 +236,6 @@ echo -e "===================================================\n\n"
 
 echo -e " Package 7:Ansible  status \n"
 
-ansible -v
 
-
+ansible --version | head -n 1
 
