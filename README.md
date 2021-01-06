@@ -17,7 +17,7 @@ This is idempotent i.e you can run many times and it will still work, it will ho
 
 All you need after dling repo ,is just run following command .
 
-On you laptop which has git (lol)(ironically this script install's git too) (else just normal download zip option in upper right corner of right corner), do
+On you laptop which has git (lol)(ironically this script install's git too) (else just normal download zip option in upper right corner of Git hub), do
 
 git clone git@github.com:knowledgeira/mj_devops.git
 
