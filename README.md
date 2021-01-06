@@ -51,8 +51,8 @@ Dont worry about systemctl status of jenkins.You can access Jenkins via curl loc
 Tomcat is used if you are using JSP/java container for running java apps. It can be accessed via curl or browser localhost:8081.
 
 
+-----------------------------------------------------You will get similar op on screen after running script-----------------------------------------------
 
-************************************************You will get similar op on screen after running script************************************************
 
 ===================================================
  Package 1: Checking Java version
@@ -62,7 +62,8 @@ java --version
 openjdk 11.0.9.1 2020-11-04
 OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04)
 OpenJDK 64-Bit Server VM (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04, mixed mode, sharing)
-===================================================
+
+============================================================================================================================================================
 
 
 Package 2: Checking tomcat status
@@ -72,6 +73,7 @@ Systemctl status tomcat
      Active: active (running) since Wed 2021-01-06 16:58:56 UTC; 3min 24s ago
    Main PID: 5835 (java)
       Tasks: 30 (limit: 1164)
+      
 ===================================================
 
 
@@ -84,6 +86,7 @@ Maven home: /opt/maven
 Java version: 11.0.9.1, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64
 Default locale: en, platform encoding: UTF-8
 OS name: "linux", version: "5.4.0-1029-aws", arch: "amd64", family: "unix"
+
 ===================================================
 
 
@@ -95,6 +98,7 @@ Docker version 20.10.2, build 2291f61
 docker-compose version 1.27.4, build 40524192
 Your root directory for docker files and it's current size.
 244K	/var/lib/docker
+
 ===================================================
 
 
@@ -103,6 +107,7 @@ Your root directory for docker files and it's current size.
 Git --version 
 
 git version 2.25.1
+
 ===================================================
 
 
