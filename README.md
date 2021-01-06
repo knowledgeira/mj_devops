@@ -42,7 +42,7 @@ JAVA,MAVEN env variables are set but later for anyother user if you need, you ca
 source /etc/profile.d/mjenv.sh
 
 
-===================================================================What to expect after running script====================================================
+==================What to expect after running script=====================
 
 
 
@@ -63,7 +63,7 @@ openjdk 11.0.9.1 2020-11-04
 OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04)
 OpenJDK 64-Bit Server VM (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04, mixed mode, sharing)
 
-============================================================================================================================================================
+=====================================================================================
 
 
 Package 2: Checking tomcat status
