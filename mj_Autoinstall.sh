@@ -168,6 +168,9 @@ sudo systemctl start jenkins
 
 #sudo systemctl status jenkins
 
+
+apt install ansible
+
 tput reset
 
 echo "Checking if everything is installed and running fine"
@@ -227,3 +230,13 @@ echo -e " Package 6: Checking Jenkin status \n"
 echo -e "Systemctl status jenkin\n"
 
 systemctl status jenkins | grep active -A 2 -B 1
+
+
+echo -e "===================================================\n\n"
+
+echo -e " Package 7:Ansible  status \n"
+
+ansible -v
+
+
+
