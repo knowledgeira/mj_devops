@@ -87,7 +87,8 @@ root@ALienIra:/home/mj/MyStuff/vagrant# vagrant destroy ubuntu2
 
 
 
-Part1:mj_autoinstall.sh
+***************************************************************************************Part2:mj_autoinstall.sh************************************************************************************************
+
 
 I have created a simple shady script (simple bash commands meant for novice user) which installs 8 packages on UBUNTU 20 instance. Ansible MAVEN,TOMCAT,JENKIN"S,DOcker as of Jan2021. This also make's sure/installs git,JDK 11,dockercompose . THE $PATH is set and everything is cross-compatible(like maven with jenkins w.r.t java etc) and would be finally  up and running after you run it.
 
@@ -215,6 +216,8 @@ Systemctl status jenkin
  Package 7:Ansible  status 
 
 ansible 2.9.6
+
+
 Remember perfection is just an illusion
 
 
