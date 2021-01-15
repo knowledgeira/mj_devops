@@ -2,6 +2,10 @@
 ​
 You have any queries ping me on knowledgeira@gmail.com
 
+There are two files in this directory and are meant for novice linux users. Vagrant file creates two ubuntu20 VM's effortlessly and assigns 192.168.100.100,192.168.100.200 and other file is simple bash script which install basic Devops packages on ubuntu20.  Basically vagrant automates the installation process which otherwise would consume lot of time.
+
+Usually creating OS on Virtual box is simplified. You need vagrant and virtual box installed.
+
 I have also added Vagrantfile. It just ups 2 VM's, you can use as build server,applicationserver or ansible controller sqlserver node etc with those.YOu will require virtualbox and vagrant installed on your linux os.
 
 then you can run vagrant up (from folder which has this file). vagrant status , vagrant ssh 
