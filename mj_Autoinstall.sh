@@ -25,9 +25,9 @@ export MAVEN_HOME=/opt/maven
 export PATH=\$M2_HOME/bin:\$PATH
 EOL
 
-sudo update-alternatives --install "/usr/bin/java" "java" "/opt/jdk-15.0.1/bin/java" 1
+#sudo update-alternatives --install "/usr/bin/java" "java" "/opt/jdk-15.0.1/bin/java" 1
 
- sudo update-alternatives --set java /opt/jdk-15.0.1/bin/java
+#sudo update-alternatives --set java /opt/jdk-15.0.1/bin/java
 
 
 echo "================== END OF installing JDK================================="
@@ -240,5 +240,5 @@ echo -e " Package 7:Ansible  status \n"
 ansible --version | head -n 1
 
 
-echo "Remember perfection is just an illusion"
+echo -e "\n\nRemember perfection is just an illusion"
 
