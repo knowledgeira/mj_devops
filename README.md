@@ -6,7 +6,7 @@ You have any queries ping me on knowledgeira@gmail.com, This is meant for people
 
 There are two files in this directory and are meant for novice linux users. Vagrant file creates two ubuntu20 VM's effortlessly and assigns 192.168.100.100,192.168.100.200 and other file is simple bash script which install basic Devops packages on ubuntu20.  Basically vagrant automates the installation process which otherwise would consume lot of time.
 
-Usually creating OS on Virtual box is simplified. You need vagrant and virtual box installed.
+Usually creating OS on Virtual box is simplified. You need vagrant and virtual box installed as well as atleast i5 or ryzen 3 for respectable performance.The machine issed 2gb each , but you can configure it from vagrantfile(edit).
 
 I have also added Vagrantfile. It just ups 2 VM's, you can use as build server,applicationserver or ansible controller sqlserver node etc with those.YOu will require virtualbox and vagrant installed on your linux os.
 
@@ -66,6 +66,24 @@ Host ubuntu2
   LogLevel FATAL
 
 root@ALienIra:/home/mj/MyStuff/vagrant# vagrant ssh ubuntu1
+
+If you want only one machine then you can shutdown using halt or completely remove/destory anyone machine.
+
+
+root@ALienIra:/home/mj/MyStuff/vagrant# vagrant halt ubuntu2
+==> ubuntu2: Attempting graceful shutdown of VM...
+root@ALienIra:/home/mj/MyStuff/vagrant# vagrant status
+Current machine states:
+
+ubuntu1                   running (virtualbox)
+ubuntu2                   poweroff (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+root@ALienIra:/home/mj/MyStuff/vagrant# vagrant destroy ubuntu2
+    ubuntu2: Are you sure you want to destroy the 'ubuntu2' VM? [y/N] y
+==> ubuntu2: Destroying VM and associated drives...
 
 
 
