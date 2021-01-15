@@ -15,9 +15,9 @@ then you can run vagrant up (from folder which has this file). vagrant status , 
 For example check the following:
 
 root@ALienIra:/home/mj/MyStuff/vagrant# vboxmanage --version\
-6.1.16r140961
+6.1.16r140961\
 root@ALienIra:/home/mj/MyStuff/vagrant# vagrant --version\
-Vagrant 2.2.6
+Vagrant 2.2.6\
 
 I dl this repo and copied the Vagrant file to folder on my local laptop
 root@ALienIra:/home/mj/MyStuff/vagrant# ls
