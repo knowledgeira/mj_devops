@@ -19,7 +19,54 @@ root@ALienIra:/home/mj/MyStuff/vagrant# vboxmanage --version
 root@ALienIra:/home/mj/MyStuff/vagrant# vagrant --version
 Vagrant 2.2.6
 
-I dl this repo
+I dl this repo and copied the Vagrant file to folder on my local laptop
+root@ALienIra:/home/mj/MyStuff/vagrant# ls
+Vagrantfile
+
+NOW run vagrant up here.
+root@ALienIra:/home/mj/MyStuff/vagrant# vagrant up
+root@ALienIra:/home/mj/MyStuff/vagrant# vagrant status
+Current machine states:
+
+ubuntu1                   running (virtualbox)
+ubuntu2                   running (virtualbox)
+
+NOw to access machine's via ssh.
+
+oot@ALienIra:/home/mj/MyStuff/vagrant# vagrant status
+Current machine states:
+
+ubuntu1                   running (virtualbox)
+ubuntu2                   running (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+root@ALienIra:/home/mj/MyStuff/vagrant# vagrant ssh-config
+Host ubuntu1
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /home/mj/MyStuff/vagrant/.vagrant/machines/ubuntu1/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host ubuntu2
+  HostName 127.0.0.1
+  User vagrant
+  Port 2200
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /home/mj/MyStuff/vagrant/.vagrant/machines/ubuntu2/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+root@ALienIra:/home/mj/MyStuff/vagrant# vagrant ssh ubuntu1
+
 
 
 
