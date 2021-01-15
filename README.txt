@@ -5,11 +5,15 @@ IF You have any queries ping me on knowledgeira@gmail.com, This is meant for peo
 **********************************************************************************************Part1: Vagrantfile****************************************************************************************************
 There are two files in this directory and are meant for novice linux users. Vagrant file creates two ubuntu20 VM's effortlessly and assigns 192.168.100.100,192.168.100.200 and other file is simple bash script which install basic Devops packages on ubuntu20.  Basically vagrant automates the installation process which otherwise would consume lot of time.
 
-Usually creating OS on Virtual box is simplified. You need vagrant and virtual box installed as well as atleast i5 or ryzen 3 for respectable performance.The machine issed 2gb each , but you can configure it from vagrantfile(edit).
+Usually creating OS on Virtual box manually consumes time hence vagranfile simplifies it. Before running ur vagrant boxes, yYou need vagrant and virtual box installed on ur host OS i.e current OS as well as atleast i5 or ryzen 3 for respectable performance.The machine uses 2gb each , but you can configure it from vagrantfile(edit) to 512 mb as well.
 
-I have also added Vagrantfile. It just ups 2 VM's, you can use as build server,applicationserver or ansible controller sqlserver node etc with those.YOu will require virtualbox and vagrant installed on your linux os.
+It just starts 2 ubuntu20.04 LTS VM's. With respect to Devops project, you can use one as  build server i.e were you app mis build jenkin maven etc and you can use applicationserverto deploy like apache tomcat etc. IN ansible project you can use one as controller and other as  sqlserver node.
 
-then you can run vagrant up (from folder which has this file). vagrant status , vagrant ssh 
+
+Method to run, Once cloning this repo or dling zip , exctract the archive or copy the Vagrant file to some independent folder.
+
+then you can run vagrant up (from folder which has this file). vagrant status , vagrant ssh
+ 
 
 For example check the following:
 
