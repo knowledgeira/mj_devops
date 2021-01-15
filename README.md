@@ -2,7 +2,7 @@
 ​
 IF You have any queries ping me on knowledgeira@gmail.com, This is meant for people who are new to linux world.
 
-***************************************************Part1: Vagrantfile**************************************************************************
+Part1: Vagrantfile
 
 There are two files in this directory and are meant for novice linux users. Vagrant file creates two ubuntu20 VM's effortlessly and assigns 192.168.100.100,192.168.100.200 and other file is simple bash script which install basic Devops packages on ubuntu20.  Basically vagrant automates the installation process which otherwise would consume lot of time.
 
@@ -88,7 +88,7 @@ root@ALienIra:/home/mj/MyStuff/vagrant# vagrant destroy ubuntu2
 
 
 
-***************************************************Part1:mj_autoinstall.sh**************************************************************************
+Part1:mj_autoinstall.sh
 I have created a simple shady script (simple bash commands meant for novice user) which installs 8 packages on UBUNTU 20 instance. Ansible MAVEN,TOMCAT,JENKIN"S,DOcker as of Jan2021. This also make's sure/installs git,JDK 11,dockercompose . THE $PATH is set and everything is cross-compatible(like maven with jenkins w.r.t java etc) and would be finally  up and running after you run it.
 
 You can freely read the script and check what it does to understand better what happening under the hood.
