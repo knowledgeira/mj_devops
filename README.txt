@@ -2,8 +2,7 @@
 ​
 IF You have any queries ping me on knowledgeira@gmail.com, This is meant for people who are new to linux world.
 
-Part1: Vagrantfile
-
+**********************************************************************************************Part1: Vagrantfile****************************************************************************************************
 There are two files in this directory and are meant for novice linux users. Vagrant file creates two ubuntu20 VM's effortlessly and assigns 192.168.100.100,192.168.100.200 and other file is simple bash script which install basic Devops packages on ubuntu20.  Basically vagrant automates the installation process which otherwise would consume lot of time.
 
 Usually creating OS on Virtual box is simplified. You need vagrant and virtual box installed as well as atleast i5 or ryzen 3 for respectable performance.The machine issed 2gb each , but you can configure it from vagrantfile(edit).
@@ -14,9 +13,9 @@ then you can run vagrant up (from folder which has this file). vagrant status , 
 
 For example check the following:
 
-root@ALienIra:/home/mj/MyStuff/vagrant# vboxmanage --version\
-6.1.16r140961\
-root@ALienIra:/home/mj/MyStuff/vagrant# vagrant --version\
+root@ALienIra:/home/mj/MyStuff/vagrant# vboxmanage --version
+6.1.16r140961
+root@ALienIra:/home/mj/MyStuff/vagrant# vagrant --version
 Vagrant 2.2.6
 
 I dl this repo and copied the Vagrant file to folder on my local laptop
