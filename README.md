@@ -1,6 +1,6 @@
 # mj_Autoinstall.sh
 ​
-You have any queries ping me on knowledgeira@gmail.com, This is meant for people who are new to linux world.
+IF You have any queries ping me on knowledgeira@gmail.com, This is meant for people who are new to linux world.
 
 ***************************************************Part1: Vagrantfile**************************************************************************
 
