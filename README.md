@@ -1,8 +1,10 @@
 # mj_Autoinstall.sh
 ​
-I may delete this repo in 2 weeks, meanwhile if you have any queries ping me on knowledgeira@gmail.com
+You have any queries ping me on knowledgeira@gmail.com
 
+I have also added Vagrantfile. It just ups 2 VM's, you can use as build server,applicationserver or ansible controller sqlserver node etc with those.YOu will require virtualbox and vagrant installed on your linux os.
 
+then you can run vagrant up (from folder which has this file). vagrant status , vagrant ssh 
 
 I have created a simple shady script (simple bash commands meant for novice user) which installs 8 packages on UBUNTU 20 instance. Ansible MAVEN,TOMCAT,JENKIN"S,DOcker as of Jan2021. This also make's sure/installs git,JDK 11,dockercompose . THE $PATH is set and everything is cross-compatible(like maven with jenkins w.r.t java etc) and would be finally  up and running after you run it.
 
