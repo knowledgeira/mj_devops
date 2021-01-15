@@ -1,16 +1,17 @@
-# mj_Autoinstall.sh
+There are two files in this directory and are meant for novice linux users to practice simple devops project.
+
 ​
-IF You have any queries ping me on knowledgeira@gmail.com, This is meant for people who are new to linux world.
+If You have any queries ping me on knowledgeira@gmail.com,this is meant for people who are new to linux world.
 
 **********************************************************************************************Part1: Vagrantfile****************************************************************************************************
-There are two files in this directory and are meant for novice linux users. Vagrant file creates two ubuntu20 VM's effortlessly and assigns 192.168.100.100,192.168.100.200 and other file is simple bash script which install basic Devops packages on ubuntu20.  Basically vagrant automates the installation process which otherwise would consume lot of time.
+Vagrant file creates two ubuntu20 VM's effortlessly and assigns 192.168.100.100,192.168.100.200 and other file is simple bash script which install basic Devops packages on ubuntu20.  Basically vagrant automates the installation process which otherwise would consume lot of time.
 
 Usually creating OS on Virtual box manually consumes time hence vagranfile simplifies it. Before running ur vagrant boxes, yYou need vagrant and virtual box installed on ur host OS i.e current OS as well as atleast i5 or ryzen 3 for respectable performance.The machine uses 2gb each , but you can configure it from vagrantfile(edit) to 512 mb as well.
 
-It just starts 2 ubuntu20.04 LTS VM's. With respect to Devops project, you can use one as  build server i.e were you app mis build jenkin maven etc and you can use applicationserverto deploy like apache tomcat etc. IN ansible project you can use one as controller and other as  sqlserver node.
+It just starts 2 ubuntu20.04 LTS VM's. With respect to Devops project, you can use one as  build server i.e where you app is build  with the help of jenkin's maven etc and you can use other VM as  application server i.e deploy your app to apache, tomcat etc. IN ansible project you can use one as controller and other as  sqlserver node.
 
 
-Method to run, Once cloning this repo or dling zip , exctract the archive or copy the Vagrant file to some independent folder.
+After cloning this repo or downloading zip archive , exctract the archive and  copy the Vagrant file to some independent folder.
 
 then you can run vagrant up (from folder which has this file). vagrant status , vagrant ssh
  
@@ -34,7 +35,7 @@ Current machine states:
 ubuntu1                   running (virtualbox)
 ubuntu2                   running (virtualbox)
 
-NOw to access machine's via ssh.
+NOw to access machine's via ssh, use vagrant ssh ubuntu1/2
 
 oot@ALienIra:/home/mj/MyStuff/vagrant# vagrant status
 Current machine states:
@@ -67,6 +68,8 @@ Host ubuntu2
   IdentityFile /home/mj/MyStuff/vagrant/.vagrant/machines/ubuntu2/virtualbox/private_key
   IdentitiesOnly yes
   LogLevel FATAL
+
+Alternatively you can use ssh localhost -p 2200   ----->password is by default vagrant.
 
 root@ALienIra:/home/mj/MyStuff/vagrant# vagrant ssh ubuntu1
 
