@@ -14,9 +14,9 @@ then you can run vagrant up (from folder which has this file). vagrant status , 
 
 For example check the following:
 
-root@ALienIra:/home/mj/MyStuff/vagrant# vboxmanage --version
+root@ALienIra:/home/mj/MyStuff/vagrant# vboxmanage --version\
 6.1.16r140961
-root@ALienIra:/home/mj/MyStuff/vagrant# vagrant --version
+root@ALienIra:/home/mj/MyStuff/vagrant# vagrant --version\
 Vagrant 2.2.6
 
 I dl this repo and copied the Vagrant file to folder on my local laptop
@@ -89,6 +89,7 @@ root@ALienIra:/home/mj/MyStuff/vagrant# vagrant destroy ubuntu2
 
 
 Part1:mj_autoinstall.sh
+
 I have created a simple shady script (simple bash commands meant for novice user) which installs 8 packages on UBUNTU 20 instance. Ansible MAVEN,TOMCAT,JENKIN"S,DOcker as of Jan2021. This also make's sure/installs git,JDK 11,dockercompose . THE $PATH is set and everything is cross-compatible(like maven with jenkins w.r.t java etc) and would be finally  up and running after you run it.
 
 You can freely read the script and check what it does to understand better what happening under the hood.
