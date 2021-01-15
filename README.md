@@ -1,20 +1,36 @@
 # mj_Autoinstall.sh
 ​
-You have any queries ping me on knowledgeira@gmail.com
+You have any queries ping me on knowledgeira@gmail.com, This is meant for people who are new to linux world.
+
+***************************************************Part1: Vagrantfile**************************************************************************
 
 I have also added Vagrantfile. It just ups 2 VM's, you can use as build server,applicationserver or ansible controller sqlserver node etc with those.YOu will require virtualbox and vagrant installed on your linux os.
 
 then you can run vagrant up (from folder which has this file). vagrant status , vagrant ssh 
 
+For example check the following:
+
+root@ALienIra:/home/mj/MyStuff/vagrant# vboxmanage --version
+6.1.16r140961
+root@ALienIra:/home/mj/MyStuff/vagrant# vagrant --version
+Vagrant 2.2.6
+
+I dl this repo
+
+
+
+***************************************************Part1:mj_autoinstall.sh**************************************************************************
 I have created a simple shady script (simple bash commands meant for novice user) which installs 8 packages on UBUNTU 20 instance. Ansible MAVEN,TOMCAT,JENKIN"S,DOcker as of Jan2021. This also make's sure/installs git,JDK 11,dockercompose . THE $PATH is set and everything is cross-compatible(like maven with jenkins w.r.t java etc) and would be finally  up and running after you run it.
 
-This is usually helpfull for people who are very new to linux world. You can freely read the script and check what it does to understand better what happening under the hood.
+You can freely read the script and check what it does to understand better what happening under the hood.
 
-I encourage you to run the commands given in the script manually and understand it by taking online helpo.Once you have good understanding you can just auto run it later.
+I encourage you to run the commands given in the script manually and understand it by taking online help since i myself has used the same.Once you have good understanding of how software get's installed, you can auto run it later.
 
 If you are in hurry for practicing devop's project, it will save your time else it's just a very simple script.
 
 You can run this script in any UBUNTU 20.04.x instance , for example :  VM running Ubuntu20, Amazon ubuntu 20 AMI image instance  (if you overboard , you can be charged in AWS as this downloads packages from Internet), you can run this on Ubuntu 20 container image, setup vagrant box ubuntu 20 etc and run on these instances.
+
+This is the very reason I created a Vagrant file which created 2 vm's , anytime you can delete,halt play around
 
 
 This is idempotent i.e you can run many times and it will still work, it will hog some bandwidth and utilize Internet Download , so care about online free tier account.
