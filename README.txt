@@ -1,4 +1,4 @@
-There are two files in this directory and are meant for novice linux users to practice simple devops project.
+There are two files in this repo i.e mj_Autoinstall.sh and Vagrantfile and are meant for novice linux users to practice simple devops project.
 
 ​
 If You have any queries ping me on knowledgeira@gmail.com,this is meant for people who are new to linux world.
