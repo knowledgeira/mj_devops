@@ -35,7 +35,7 @@ Current machine states:
 ubuntu1                   running (virtualbox)
 ubuntu2                   running (virtualbox)
 
-NOw to access machine's via ssh, use vagrant ssh ubuntu1/2  -->default passwd is vagrant.
+NOw to access machine's via ssh, use vagrant ssh ubuntu1/2  -->default password is vagrant.
 
 oot@ALienIra:/home/mj/MyStuff/vagrant# vagrant status
 Current machine states:
@@ -71,7 +71,7 @@ Host ubuntu2
 
 Alternatively you can use: sshpass -p vagrant ssh vagrant@localhost -p 2222
 
-You need sshpass to be installed. For rist time you may need to login normally or set stricthostkeychecking setting to NO
+You need sshpass to be installed. For frist time you may need to login normally or set stricthostkeychecking setting to NO
 
 You can also use key which is inside .vagrant folder.
 
@@ -105,9 +105,9 @@ root@ALienIra:/home/mj/MyStuff/vagrant# vagrant destroy ubuntu2
 
 I have created a simple shady script (simple bash commands meant for novice user) which installs 8 packages on UBUNTU 20 instance. Ansible MAVEN,TOMCAT,JENKIN"S,DOcker as of Jan2021. This also make's sure/installs git,JDK 11,dockercompose . THE $PATH is set and everything is cross-compatible(like maven with jenkins w.r.t java etc) and would be finally  up and running after you run it.
 
-You can freely read the script and check what it does to understand better what happening under the hood.
+You can freely modify/read the script and check what it does to understand better what exactly is happening under the hood.
 
-I encourage you to run the commands given in the script manually and understand it by taking online help since i myself has used the same.Once you have good understanding of how software get's installed, you can auto run it later.
+I encourage you to run the commands given in the script manually and understand it by taking online help.Once you have good understanding of how software get's installed, you can auto run it later.
 
 If you are in hurry for practicing devop's project, it will save your time else it's just a very simple script.
 
