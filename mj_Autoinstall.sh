@@ -1,7 +1,10 @@
 #!/bin/bash
 
 
-#Author Manoj Jagdale knowledgeira@gmail.com
+#Author : Manoj Jagdale
+
+#Email : knowledgeira@gmail.com
+
 sudo apt-get update
 sudo apt-get install curl -y
 #echo "Installing  JDK 11 as currently Jenkin requires it specifically and cannot run on Java 15 which is latest"
@@ -240,5 +243,5 @@ echo -e " Package 7:Ansible  status \n"
 ansible --version | head -n 1
 
 
-echo -e "\n\nRemember perfection is just an illusion"
+echo -e "\n\n Remember perfection is just an illusion"
 
