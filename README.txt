@@ -1,5 +1,5 @@
 There are two files in this repo i.e mj_Autoinstall.sh and Vagrantfile and are meant for novice linux users to practice simple devops project.
-[I have added utomation of both files in AUTO branch]
+[I have added automation of both files in AUTO branch]
 ​
 If You have any queries ping me on knowledgeira@gmail.com,this is meant for people who are new to linux world.
 
